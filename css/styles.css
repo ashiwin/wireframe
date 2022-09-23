@@ -1,0 +1,73 @@
+/* font configurations */
+@import url('fonts.css');
+
+/* font styling */
+h1,
+h2,
+h3,
+h4,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	font-family: 'Quicksand', sans-serif;
+}
+
+p,
+span {
+	font-family: 'Quicksand', sans-serif;
+}
+
+p.more {
+	margin-top: 10px;
+	text-align: center;
+}
+
+a.btn:link,
+a.btn:visited,
+/* a.btn:hover, */
+a.btn:active {
+	padding: 13px 20px;
+	border-radius: 15px;
+	background-color: #e00069;
+	box-shadow: 0 2px 1px 0 rgb(0 0 0 / 12%);
+	-webkit-transition: background-color .3s,box-shadow .3s,color .3s;
+	transition: background-color .3s,box-shadow .3s,color .3s;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.btn:hover {
+	border-color: #ff298d;
+	background-color: #ff298d;
+}
+
+.navbar {
+	background-color: #ffec01;
+	box-shadow: 0 1px 0 0 rgb(0 0 0 / 13%);
+	height: 75px;
+}
+
+section {
+	padding-top: 75px;
+	margin-top: 25px;
+}
+
+.title {
+}
+
+.boxes{
+}
+
+.box-items {
+	background-color: rgba(255,236,1,.5);
+	margin: 10px 0;
+	padding: 10px;
+}
+
+footer {
+	height: 75px;
+}
+/* Ashiwin Kumar for Dobi Queen, 2022 */
